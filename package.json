@@ -1,0 +1,30 @@
+{
+  "name": "cvgenerator-json",
+  "version": "1.0.0",
+  "description": "generator cv with json file.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cvn": "./index.js"
+  },
+  "scripts": {
+  },
+  "keywords": [
+    "cv",
+    "json",
+    "nodejs",
+    "cli",
+    "generator",
+    "curriculum",
+    "terminal+"
+  ],
+  "author": "Axcel",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "docx": "^7.8.2",
+    "figlet": "^1.5.2",
+    "meow": "^11.0.0",
+    "ora": "^6.1.2"
+  }
+}
